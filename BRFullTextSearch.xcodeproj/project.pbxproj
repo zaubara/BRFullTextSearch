@@ -23,6 +23,47 @@
 /* Begin PBXBuildFile section */
 		03B7FF76098C0020B53B1963 /* libPods-BasePods-BRFullTextSearchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C1BE10792AA64013FE1EF4 /* libPods-BasePods-BRFullTextSearchTests.a */; };
 		08F58ED50F9FA6B4ADC815B9 /* libPods-BasePods-BRFullTextSearchMacOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 975BE9E97FE948445107BD2A /* libPods-BasePods-BRFullTextSearchMacOS.a */; };
+		21ECA4611DF498AA00974F50 /* BRSearchFields.m in Sources */ = {isa = PBXBuildFile; fileRef = C909C6731784D64D0016C25E /* BRSearchFields.m */; };
+		21ECA4621DF498AA00974F50 /* BRSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F87C3D17D94AA700485FAE /* BRSearchService.m */; };
+		21ECA4631DF498AA00974F50 /* BRNoLockFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C909C6481784D00C0016C25E /* BRNoLockFactory.cpp */; };
+		21ECA4641DF498AA00974F50 /* BRSnowballAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C909C6461784D00C0016C25E /* BRSnowballAnalyzer.cpp */; };
+		21ECA4651DF498AA00974F50 /* CLuceneIndexUpdateContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = C909C6621784D5000016C25E /* CLuceneIndexUpdateContext.mm */; };
+		21ECA4661DF498AA00974F50 /* CLuceneSearchResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = C909C6641784D5000016C25E /* CLuceneSearchResult.mm */; };
+		21ECA4671DF498AA00974F50 /* CLuceneSearchResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = C909C6661784D5000016C25E /* CLuceneSearchResults.mm */; };
+		21ECA4681DF498AA00974F50 /* CLuceneSearchService.mm in Sources */ = {isa = PBXBuildFile; fileRef = C909C6681784D5000016C25E /* CLuceneSearchService.mm */; };
+		21ECA4691DF498AA00974F50 /* NSData+CLuceneAdditions.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9575E801A97EDAF00394CDA /* NSData+CLuceneAdditions.mm */; };
+		21ECA46A1DF498AA00974F50 /* NSExpression+CLuceneAdditions.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9E6137517C5A82E00EB6E38 /* NSExpression+CLuceneAdditions.mm */; };
+		21ECA46B1DF498AA00974F50 /* NSString+CLuceneAdditions.mm in Sources */ = {isa = PBXBuildFile; fileRef = C909C6581784D4B70016C25E /* NSString+CLuceneAdditions.mm */; };
+		21ECA46C1DF498AA00974F50 /* SnowballPrefixFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D6EC1F1AD615FC006D23F4 /* SnowballPrefixFilter.cpp */; };
+		21ECA46D1DF498AA00974F50 /* BRSimpleIndexable.m in Sources */ = {isa = PBXBuildFile; fileRef = C97940F11786022900DF0660 /* BRSimpleIndexable.m */; };
+		21ECA46E1DF498AA00974F50 /* BRSimpleSortDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B75121C7E99CA00014124 /* BRSimpleSortDescriptor.m */; };
+		21ECA46F1DF498AA00974F50 /* NSDate+BRFullTextSearchAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C909C6771784DB700016C25E /* NSDate+BRFullTextSearchAdditions.m */; };
+		21ECA4701DF498AA00974F50 /* NSDateComponents+BRFullTextSearchAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C909C67F1784DCD50016C25E /* NSDateComponents+BRFullTextSearchAdditions.m */; };
+		21ECA4711DF498AA00974F50 /* NSTimeZone+BRFullTextSearchAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C909C67B1784DBD30016C25E /* NSTimeZone+BRFullTextSearchAdditions.m */; };
+		21ECA4721DF498D700974F50 /* BRIndexable.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6501784D4B70016C25E /* BRIndexable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4731DF498D700974F50 /* BRIndexUpdateContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6511784D4B70016C25E /* BRIndexUpdateContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4741DF498D700974F50 /* BRSearchFields.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6721784D64D0016C25E /* BRSearchFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4751DF498D700974F50 /* BRSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6521784D4B70016C25E /* BRSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4761DF498D700974F50 /* BRSearchResults.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6541784D4B70016C25E /* BRSearchResults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4771DF498D700974F50 /* BRSearchService.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6551784D4B70016C25E /* BRSearchService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4781DF498D700974F50 /* BRSortDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = C90B75101C7E97EA00014124 /* BRSortDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4791DF498D700974F50 /* BRNoLockFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6471784D00C0016C25E /* BRNoLockFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA47A1DF498D700974F50 /* BRSnowballAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6451784D00C0016C25E /* BRSnowballAnalyzer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA47B1DF498D700974F50 /* CLuceneIndexUpdateContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6611784D5000016C25E /* CLuceneIndexUpdateContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA47C1DF498D700974F50 /* CLuceneSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6631784D5000016C25E /* CLuceneSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA47D1DF498D700974F50 /* CLuceneSearchResults.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6651784D5000016C25E /* CLuceneSearchResults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA47E1DF498D700974F50 /* CLuceneSearchService.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6671784D5000016C25E /* CLuceneSearchService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA47F1DF498D700974F50 /* NSData+CLuceneAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C9575E7F1A97EDAF00394CDA /* NSData+CLuceneAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4801DF498D700974F50 /* NSExpression+CLuceneAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E6137417C5A82E00EB6E38 /* NSExpression+CLuceneAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4811DF498D700974F50 /* NSString+CLuceneAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6571784D4B70016C25E /* NSString+CLuceneAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4821DF498D700974F50 /* SnowballPrefixFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D6EC201AD615FC006D23F4 /* SnowballPrefixFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4831DF498D700974F50 /* BRSimpleIndexable.h in Headers */ = {isa = PBXBuildFile; fileRef = C97940F01786022900DF0660 /* BRSimpleIndexable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4841DF498D700974F50 /* BRSimpleSortDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = C90B75111C7E99CA00014124 /* BRSimpleSortDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4851DF498D700974F50 /* NSDate+BRFullTextSearchAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C6761784DB700016C25E /* NSDate+BRFullTextSearchAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4861DF498D700974F50 /* NSDateComponents+BRFullTextSearchAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C67E1784DCD50016C25E /* NSDateComponents+BRFullTextSearchAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4871DF498D700974F50 /* NSTimeZone+BRFullTextSearchAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C909C67A1784DBD20016C25E /* NSTimeZone+BRFullTextSearchAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ECA4881DF498EC00974F50 /* libPods-BasePods-BRFullTextSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21ECA44F1DF4981F00974F50 /* libPods-BasePods-BRFullTextSearch.a */; };
+		21ECA48D1DF49E1D00974F50 /* BRFullTextSearchFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 21ECA48C1DF49E0700974F50 /* BRFullTextSearchFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6022E4062A55E98145910DDD /* libPods-BasePods-BRFullTextSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25A545E77BFA43C3C5D47F /* libPods-BasePods-BRFullTextSearch.a */; };
 		B41D7B5916D7FE7B09F1A0F7 /* libPods-BRFullTextSearchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A941FCDB2DC233E241C3800 /* libPods-BRFullTextSearchTests.a */; };
 		C909C2651784CB600016C25E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C909C2641784CB600016C25E /* Foundation.framework */; };
@@ -107,6 +148,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		21ECA44A1DF4981F00974F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21ECA4421DF4981F00974F50 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AB98165ADE90ADADFEF8C05B;
+			remoteInfo = "BRCLucene-iOS";
+		};
+		21ECA44C1DF4981F00974F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21ECA4421DF4981F00974F50 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5727D0A80F77B33D73278FEA;
+			remoteInfo = "BRCLucene-OSX";
+		};
+		21ECA44E1DF4981F00974F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21ECA4421DF4981F00974F50 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A2BA2637A9C24B098EC6345B;
+			remoteInfo = "Pods-BasePods-BRFullTextSearch";
+		};
+		21ECA4501DF4981F00974F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21ECA4421DF4981F00974F50 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B1AF9A436F8023B6FE019ED;
+			remoteInfo = "Pods-BasePods-BRFullTextSearchMacOS";
+		};
+		21ECA4521DF4981F00974F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21ECA4421DF4981F00974F50 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E279BADCE6B6B837E61A4427;
+			remoteInfo = "Pods-BasePods-BRFullTextSearchTests";
+		};
 		C90B751E1C7EA00D00014124 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C909C2591784CB600016C25E /* Project object */;
@@ -132,6 +208,10 @@
 		01C1BE10792AA64013FE1EF4 /* libPods-BasePods-BRFullTextSearchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasePods-BRFullTextSearchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B150ED0DC675AAD38D91041 /* Pods-BasePods-BRFullTextSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasePods-BRFullTextSearchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasePods-BRFullTextSearchTests/Pods-BasePods-BRFullTextSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		175688046C735C8053C0E015 /* Pods-BRFullTextSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRFullTextSearchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BRFullTextSearchTests/Pods-BRFullTextSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21ECA4421DF4981F00974F50 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		21ECA4591DF4986E00974F50 /* BRFullTextSearchFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRFullTextSearchFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21ECA48A1DF49D7600974F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21ECA48C1DF49E0700974F50 /* BRFullTextSearchFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRFullTextSearchFramework.h; sourceTree = "<group>"; };
 		4A941FCDB2DC233E241C3800 /* libPods-BRFullTextSearchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BRFullTextSearchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD30F9EDBB90E180F819A99 /* Pods-BRFullTextSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRFullTextSearchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BRFullTextSearchTests/Pods-BRFullTextSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		685E3CDA24EE7C8ED3604A8D /* Pods-BasePods-BRFullTextSearchMacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasePods-BRFullTextSearchMacOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasePods-BRFullTextSearchMacOS/Pods-BasePods-BRFullTextSearchMacOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -218,6 +298,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		21ECA4551DF4986E00974F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21ECA4881DF498EC00974F50 /* libPods-BasePods-BRFullTextSearch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C909C25E1784CB600016C25E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,9 +337,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21ECA4431DF4981F00974F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21ECA44B1DF4981F00974F50 /* libBRCLucene-iOS.a */,
+				21ECA44D1DF4981F00974F50 /* libBRCLucene-OSX.a */,
+				21ECA44F1DF4981F00974F50 /* libPods-BasePods-BRFullTextSearch.a */,
+				21ECA4511DF4981F00974F50 /* libPods-BasePods-BRFullTextSearchMacOS.a */,
+				21ECA4531DF4981F00974F50 /* libPods-BasePods-BRFullTextSearchTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21ECA4891DF49D7600974F50 /* BRFullTextSearch Framework iOS */ = {
+			isa = PBXGroup;
+			children = (
+				21ECA48A1DF49D7600974F50 /* Info.plist */,
+				21ECA48C1DF49E0700974F50 /* BRFullTextSearchFramework.h */,
+			);
+			path = "BRFullTextSearch Framework iOS";
+			sourceTree = "<group>";
+		};
 		C8BB0A7835A76631C11A6DD6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				21ECA4421DF4981F00974F50 /* Pods.xcodeproj */,
 				175688046C735C8053C0E015 /* Pods-BRFullTextSearchTests.debug.xcconfig */,
 				5AD30F9EDBB90E180F819A99 /* Pods-BRFullTextSearchTests.release.xcconfig */,
 				E420548430583E76A949D1FF /* Pods-BasePods-BRFullTextSearch.debug.xcconfig */,
@@ -271,6 +381,7 @@
 				C909C2661784CB600016C25E /* BRFullTextSearch */,
 				C909C27B1784CB600016C25E /* BRFullTextSearchTests */,
 				E3DF7E461C69A075005B861B /* BRFullTextSearch Mac OS */,
+				21ECA4891DF49D7600974F50 /* BRFullTextSearch Framework iOS */,
 				C909C2631784CB600016C25E /* Frameworks */,
 				C909C2621784CB600016C25E /* Products */,
 				C8BB0A7835A76631C11A6DD6 /* Pods */,
@@ -283,6 +394,7 @@
 				C909C2611784CB600016C25E /* libBRFullTextSearch.a */,
 				E3DF7E451C69A075005B861B /* BRFullTextSearch.framework */,
 				E345D8FC1C9DEA89005733F5 /* BRFullTextSearchTests.xctest */,
+				21ECA4591DF4986E00974F50 /* BRFullTextSearchFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -574,6 +686,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		21ECA4561DF4986E00974F50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21ECA4721DF498D700974F50 /* BRIndexable.h in Headers */,
+				21ECA4731DF498D700974F50 /* BRIndexUpdateContext.h in Headers */,
+				21ECA4741DF498D700974F50 /* BRSearchFields.h in Headers */,
+				21ECA4751DF498D700974F50 /* BRSearchResult.h in Headers */,
+				21ECA4761DF498D700974F50 /* BRSearchResults.h in Headers */,
+				21ECA4771DF498D700974F50 /* BRSearchService.h in Headers */,
+				21ECA4781DF498D700974F50 /* BRSortDescriptor.h in Headers */,
+				21ECA4791DF498D700974F50 /* BRNoLockFactory.h in Headers */,
+				21ECA47A1DF498D700974F50 /* BRSnowballAnalyzer.h in Headers */,
+				21ECA47B1DF498D700974F50 /* CLuceneIndexUpdateContext.h in Headers */,
+				21ECA47C1DF498D700974F50 /* CLuceneSearchResult.h in Headers */,
+				21ECA47D1DF498D700974F50 /* CLuceneSearchResults.h in Headers */,
+				21ECA47E1DF498D700974F50 /* CLuceneSearchService.h in Headers */,
+				21ECA47F1DF498D700974F50 /* NSData+CLuceneAdditions.h in Headers */,
+				21ECA4801DF498D700974F50 /* NSExpression+CLuceneAdditions.h in Headers */,
+				21ECA4811DF498D700974F50 /* NSString+CLuceneAdditions.h in Headers */,
+				21ECA48D1DF49E1D00974F50 /* BRFullTextSearchFramework.h in Headers */,
+				21ECA4821DF498D700974F50 /* SnowballPrefixFilter.h in Headers */,
+				21ECA4831DF498D700974F50 /* BRSimpleIndexable.h in Headers */,
+				21ECA4841DF498D700974F50 /* BRSimpleSortDescriptor.h in Headers */,
+				21ECA4851DF498D700974F50 /* NSDate+BRFullTextSearchAdditions.h in Headers */,
+				21ECA4861DF498D700974F50 /* NSDateComponents+BRFullTextSearchAdditions.h in Headers */,
+				21ECA4871DF498D700974F50 /* NSTimeZone+BRFullTextSearchAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3DF7E421C69A075005B861B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -606,6 +748,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		21ECA4581DF4986E00974F50 /* BRFullTextSearchFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21ECA45E1DF4986E00974F50 /* Build configuration list for PBXNativeTarget "BRFullTextSearchFramework" */;
+			buildPhases = (
+				21ECA4541DF4986E00974F50 /* Sources */,
+				21ECA4551DF4986E00974F50 /* Frameworks */,
+				21ECA4561DF4986E00974F50 /* Headers */,
+				21ECA4571DF4986E00974F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRFullTextSearchFramework;
+			productName = "brfulltextsearch-framework";
+			productReference = 21ECA4591DF4986E00974F50 /* BRFullTextSearchFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		C909C2601784CB600016C25E /* BRFullTextSearch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C909C2861784CB600016C25E /* Build configuration list for PBXNativeTarget "BRFullTextSearch" */;
@@ -676,6 +836,10 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Blue Rocket";
 				TargetAttributes = {
+					21ECA4581DF4986E00974F50 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 					C90B75171C7EA00D00014124 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -704,17 +868,69 @@
 			mainGroup = C909C2581784CB600016C25E;
 			productRefGroup = C909C2621784CB600016C25E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 21ECA4431DF4981F00974F50 /* Products */;
+					ProjectRef = 21ECA4421DF4981F00974F50 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C909C2601784CB600016C25E /* BRFullTextSearch */,
 				C90B75171C7EA00D00014124 /* BRFullTextSearchTests */,
 				C909C28C1784CB740016C25E /* BRFullTextSearch.framework */,
 				E3DF7E441C69A075005B861B /* BRFullTextSearchMacOS */,
+				21ECA4581DF4986E00974F50 /* BRFullTextSearchFramework */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		21ECA44B1DF4981F00974F50 /* libBRCLucene-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libBRCLucene-iOS.a";
+			remoteRef = 21ECA44A1DF4981F00974F50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21ECA44D1DF4981F00974F50 /* libBRCLucene-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libBRCLucene-OSX.a";
+			remoteRef = 21ECA44C1DF4981F00974F50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21ECA44F1DF4981F00974F50 /* libPods-BasePods-BRFullTextSearch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-BasePods-BRFullTextSearch.a";
+			remoteRef = 21ECA44E1DF4981F00974F50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21ECA4511DF4981F00974F50 /* libPods-BasePods-BRFullTextSearchMacOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-BasePods-BRFullTextSearchMacOS.a";
+			remoteRef = 21ECA4501DF4981F00974F50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21ECA4531DF4981F00974F50 /* libPods-BasePods-BRFullTextSearchTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-BasePods-BRFullTextSearchTests.a";
+			remoteRef = 21ECA4521DF4981F00974F50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
+		21ECA4571DF4986E00974F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C90B75161C7EA00D00014124 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -882,6 +1098,30 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		21ECA4541DF4986E00974F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21ECA4611DF498AA00974F50 /* BRSearchFields.m in Sources */,
+				21ECA4621DF498AA00974F50 /* BRSearchService.m in Sources */,
+				21ECA4631DF498AA00974F50 /* BRNoLockFactory.cpp in Sources */,
+				21ECA4641DF498AA00974F50 /* BRSnowballAnalyzer.cpp in Sources */,
+				21ECA4651DF498AA00974F50 /* CLuceneIndexUpdateContext.mm in Sources */,
+				21ECA4661DF498AA00974F50 /* CLuceneSearchResult.mm in Sources */,
+				21ECA4671DF498AA00974F50 /* CLuceneSearchResults.mm in Sources */,
+				21ECA4681DF498AA00974F50 /* CLuceneSearchService.mm in Sources */,
+				21ECA4691DF498AA00974F50 /* NSData+CLuceneAdditions.mm in Sources */,
+				21ECA46A1DF498AA00974F50 /* NSExpression+CLuceneAdditions.mm in Sources */,
+				21ECA46B1DF498AA00974F50 /* NSString+CLuceneAdditions.mm in Sources */,
+				21ECA46C1DF498AA00974F50 /* SnowballPrefixFilter.cpp in Sources */,
+				21ECA46D1DF498AA00974F50 /* BRSimpleIndexable.m in Sources */,
+				21ECA46E1DF498AA00974F50 /* BRSimpleSortDescriptor.m in Sources */,
+				21ECA46F1DF498AA00974F50 /* NSDate+BRFullTextSearchAdditions.m in Sources */,
+				21ECA4701DF498AA00974F50 /* NSDateComponents+BRFullTextSearchAdditions.m in Sources */,
+				21ECA4711DF498AA00974F50 /* NSTimeZone+BRFullTextSearchAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C909C25D1784CB600016C25E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1068,6 +1308,121 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		21ECA45F1DF4986E00974F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E420548430583E76A949D1FF /* Pods-BasePods-BRFullTextSearch.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "BRFullTextSearch/BRFullTextSearch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_WCHAR_H_CPLUSPLUS_98_CONFORMANCE_,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					Pods/Headers/Public,
+					Pods/Headers/Public/BRCLucene,
+				);
+				INFOPLIST_FILE = "BRFullTextSearch Framework iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$PODS_CONFIGURATION_BUILD_DIR/BRCLucene-iOS\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					Pods/Headers/Public,
+					"-isystem",
+					Pods/Headers/Public/BRCLucene,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bluerocket.brfulltextsearch-framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		21ECA4601DF4986E00974F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD1D88DC310484ED3F8C547 /* Pods-BasePods-BRFullTextSearch.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PREFIX_HEADER = "BRFullTextSearch/BRFullTextSearch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = _WCHAR_H_CPLUSPLUS_98_CONFORMANCE_;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					Pods/Headers/Public,
+					Pods/Headers/Public/BRCLucene,
+				);
+				INFOPLIST_FILE = "BRFullTextSearch Framework iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$PODS_CONFIGURATION_BUILD_DIR/BRCLucene-iOS\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					Pods/Headers/Public,
+					"-isystem",
+					Pods/Headers/Public/BRCLucene,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bluerocket.brfulltextsearch-framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
 		C909C2841784CB600016C25E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1337,6 +1692,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		21ECA45E1DF4986E00974F50 /* Build configuration list for PBXNativeTarget "BRFullTextSearchFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21ECA45F1DF4986E00974F50 /* Debug */,
+				21ECA4601DF4986E00974F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C909C25C1784CB600016C25E /* Build configuration list for PBXProject "BRFullTextSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
