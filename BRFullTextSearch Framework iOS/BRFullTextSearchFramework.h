@@ -23,6 +23,19 @@
 #import <BRFullTextSearch/BRSearchResults.h>
 #import <BRFullTextSearch/BRSearchService.h>
 #import <BRFullTextSearch/BRSimpleIndexable.h>
-
+#import <BRFullTextSearch/BRNoLockFactory.h>
+#import <BRFullTextSearch/BRSimpleSortDescriptor.h>
+#import <BRFullTextSearch/BRSnowballAnalyzer.h>
+#import <BRFullTextSearch/CLuceneIndexUpdateContext.h>
+#import <BRFullTextSearch/CLuceneSearchResult.h>
+#import <BRFullTextSearch/CLuceneSearchResults.h>
+#import <BRFullTextSearch/CLuceneSearchService.h>
+#import <BRFullTextSearch/NSData+CLuceneAdditions.h>
+#import <BRFullTextSearch/NSDate+BRFullTextSearchAdditions.h>
+#import <BRFullTextSearch/NSDateComponents+BRFullTextSearchAdditions.h>
+#import <BRFullTextSearch/NSExpression+CLuceneAdditions.h>
+#import <BRFullTextSearch/NSString+CLuceneAdditions.h>
+#import <BRFullTextSearch/NSTimeZone+BRFullTextSearchAdditions.h>
+#import <BRFullTextSearch/SnowballPrefixFilter.h>
 
 #endif /* BRFullTextSearchFramework_h */
